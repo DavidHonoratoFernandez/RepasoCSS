@@ -1,3 +1,11 @@
 #Tabla{
+    width: 100%;
     text-align: center;
+    justify-content: center;
+    padding: 1%;
+    background-color: aliceblue;
+}
+
+td{
+    padding: 2%;
 }

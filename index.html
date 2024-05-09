@@ -4,43 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabla RepasoCSS</title>
-    <link type="text/css" href="./stylesheet.css">
+    <link href="./stylesheet.css" rel="stylesheet" type="text/css">
+    <link href="icono.png" rel="icon" type="image/icon">
+
 </head>
 <body>
     <table border="1" id="Tabla">
         <tr>
-            <th> Comando </th>
-            <th> Descripción </th>
-            <th> Juego </th>
+            <th><b> Comando </b></th>
+            <th><b> Descripción </b></th>
+            <th><b> Juego </b></th>
         </tr>
         
         <tr>
             <td> justify-content: flex-end; </td>
-            <td></td>
+            <td> Alinea el contenido al lado derecho </td>
             <td> FlexBox froggy (1) </td>
         </tr>
 
         <tr>
             <td> justify-content: center; </td>
-            <td></td>
+            <td> Alinea el contenido al centro</td>
             <td> FlexBox froggy (2) </td>
         </tr>
 
         <tr>
             <td> justify-content: space-around; </td>
-            <td></td>
+            <td> Añadimos un espacio alrededor del contenido </td>
             <td> FlexBox froggy (3) </td>
         </tr>
 
         <tr>
             <td> justify-content: space-between </td>
-            <td></td>
+            <td> Añadimos un espacio entre el contenido </td>
             <td> FlexBox froggy (4) </td>
         </tr>
 
         <tr>
             <td> align-items: flex-end </td>
-            <td></td>
+            <td> Alinea el contenido a la parte inferior</td>
             <td> FlexBox froggy (5) </td>
         </tr>
 
@@ -50,7 +52,7 @@
                 <div>justify-content: center;</div>
                 <div>align-items: center</div> 
             </td>
-            <td></td>
+            <td> Alinea totalmente al centro el contenido</td>
             <td> FlexBox froggy (6) </td>
         </tr>
 
@@ -59,19 +61,19 @@
                 <div>justify-content: space-around;</div>
                 <div> align-items: flex-end;</div>
             </td>
-            <td></td>
+            <td> Añade un espacio alrededor del contenido y a su vez lo alinea a la parte inferior </td>
             <td> FlexBox froggy (7) </td>
         </tr>
 
         <tr>
             <td> flex-direction: row-reverse </td>
-            <td></td>
+            <td> El contenido es alineado de forma inversa</td>
             <td> FlexBox froggy (8) </td>
         </tr>
 
         <tr>
             <td> flex-direction: column </td>
-            <td></td>
+            <td> El contenido es alineado en forma de columna</td>
             <td> FlexBox froggy (9) </td>
         </tr>
 
@@ -80,7 +82,7 @@
                 <div>justify-content: flex-end;</div>
                 <div>flex-direction: row-reverse;</div>
             </td>
-            <td></td>
+            <td> Invierte la dirección del contenido y a su vez al estar invertido empieza por la parte inicial </td>
             <td> FlexBox froggy (10) </td>
         </tr>
 
@@ -89,7 +91,7 @@
                 <div>flex-direction: column;</div>
                 <div>justify-content: flex-end;</div> 
             </td>
-            <td></td>
+            <td> El contenido se ordena en modo columna y empieza por la parte inferior </td>
             <td> FlexBox froggy (11) </td>
         </tr>
 
@@ -97,7 +99,7 @@
             <td> <div>flex-direction: column-reverse;</div>
                 <div>justify-content: space-between;</div>
             </td>
-            <td></td>
+            <td> Añade un espacio entre el contenido y a su vez lo ordena en modo columna de forma inversa </td>
             <td> FlexBox froggy (12) </td>
         </tr>
 
@@ -107,25 +109,25 @@
                 <div>justify-content: center;</div>
                 <div>align-items: flex-end;</div>
             </td>
-            <td></td>
+            <td> Alinea el contenido al centro, invierte el orden de la fila y lo alinea a la parte inferior</td>
             <td> FlexBox froggy (13) </td>
         </tr>
 
         <tr>
             <td> order: 1; </td>
-            <td></td>
+            <td> Hace l salto para adelante en el orden del contenido</td>
             <td> FlexBox froggy (14) </td>
         </tr>
 
         <tr>
             <td> order: -4; </td>
-            <td></td>
+            <td> Hace 4 saltos para atrás en el orden del contenido</td>
             <td> FlexBox froggy (15) </td>
         </tr>
 
         <tr>
             <td> align-self: flex-end; </td>
-            <td></td>
+            <td> Añade solamente el contenido indicado a la parte inferior </td>
             <td> FlexBox froggy (16) </td>
         </tr>
 
@@ -134,13 +136,13 @@
                 <div>order: 1;</div>
                 <div>align-self: flex-end;</div> 
             </td>
-            <td></td>
+            <td> Hace 1 salto y lo alinea a la parte inferior </td>
             <td> FlexBox froggy (17) </td>
         </tr>
 
         <tr>
             <td>flex-wrap: wrap;</td>
-            <td></td>
+            <td> Distribuye el contenido linealmente </td>
             <td> FlexBox froggy (18) </td>
         </tr>
 
@@ -149,25 +151,25 @@
                 <div>flex-wrap: wrap;</div>
                 <div>flex-direction: column-reverse;</div>
             </td>
-            <td></td>
+            <td> Distribuye el contenido en lineas y lo ordena en columnas de forma inversa </td>
             <td> FlexBox froggy (19) </td>
         </tr>
 
         <tr>
             <td>flex-flow: column wrap;</td>
-            <td></td>
+            <td> Ordena el contenido en columnas y lo distribuye en filas </td>
             <td> FlexBox froggy (20) </td>
         </tr>
 
         <tr>
             <td>align-content: flex-start;</td>
-            <td></td>
+            <td> El contenido se alinea en la parte superior </td>
             <td> FlexBox froggy (21) </td>
         </tr>
 
         <tr>
             <td>align-content: flex-end;</td>
-            <td></td>
+            <td> El contenido se alinea en la parte inferior </td>
             <td> FlexBox froggy (22) </td>
         </tr>
 
@@ -176,7 +178,7 @@
                 <div>flex-direction: column-reverse;</div>
                 <div>align-content: center;</div>
             </td>
-            <td></td>
+            <td> Orienta el contenido en forma de columna y lo invierte, también lo alinea al centro </td>
             <td> FlexBox froggy (23) </td>
         </tr>
 
@@ -186,16 +188,17 @@
                 <div>justify-content: center;</div>
                 <div>align-content: space-between;</div>
             </td>
-            <td></td>
+            <td> Ordenamos el contenido en modo de columna y se distribuye en forma inversa, se le alinea al centro y se le añade un espacio </td>
             <td> FlexBox froggy (24) </td>
         </tr>
+    </table>
 
-
+    <br><br>
 
     <table border="1" id="Tabla">
     <tr>
         <td> justify-content: center; </td>
-        <td></td>
+        <td> Alinea el contenido al centro </td>
         <td> FlexBox defense (1) </td>
     </tr>
 
@@ -205,7 +208,7 @@
             <div>justify-content: center;</div>
             <div>justify-content: flex-end;</div>
         </td>
-        <td></td>
+        <td> Repartimos el contenido donde algunos van a la parte derecha y otro al centro </td>
         <td> FlexBox defense (2) </td>
     </tr>
 
@@ -214,7 +217,7 @@
             <div>justify-content: center;</div>
             <div>justify-content: space-between;</div>
         </td>
-        <td></td>
+        <td> En una fila de contenido la centra y en la otra hace un espacio entre el mismo contenido </td>
         <td> FlexBox defense (3) </td>
     </tr>
 
@@ -222,7 +225,7 @@
         <td>  
             align-items: flex-end;
         </td>
-        <td></td>
+        <td> Alineamos todo al final de su respectivo contenedor</td>
         <td> FlexBox defense (4) </td>
     </tr>
 
@@ -234,7 +237,7 @@
             <div>justify-content: center;</div>
             <div>align-items: center;</div>
         </td>
-        <td></td>
+        <td> Añadimos un espacio y lo alineamos a la parte inferior, en otros lo centramos </td>
         <td> FlexBox defense (5) </td>
     </tr>
 
@@ -244,7 +247,7 @@
             <div>justify-content: space-between;</div>
             <div>align-items: center;</div>
         </td>
-        <td></td>
+        <td> Añadiremos un espacio y lo alineamos al centro </td>
         <td> FlexBox defense (6) </td>
     </tr>
 
@@ -253,7 +256,7 @@
             <div>flex-direction: column;</div>
             <div>flex-direction: column;</div>
         </td>
-        <td></td>
+        <td> Orientaremos el contenido en formato columna </td>
         <td> FlexBox defense (7) </td>
     </tr>
 
@@ -265,7 +268,7 @@
             <div>align-items: center;</div>
             <div>justify-content: space-between;</div>
         </td>
-        <td></td>
+        <td> Orienta el contenido en formato columna y a su vez le añade un espacio, la segunda fila la centra. </td>
         <td> FlexBox defense (8) </td>
     </tr>
 
@@ -277,7 +280,7 @@
             <div>justify-content: space-around;</div>
             <div>align-items: center;</div>
         </td>
-        <td></td>
+        <td> Orientamos una parte del contenido y la centramos. </td>
         <td> FlexBox defense (9) </td>
     </tr>
 
@@ -288,7 +291,7 @@
             <div>justify-content: space-around;</div>
             <div>order: -1;</div>
         </td>
-        <td></td>
+        <td> Orientamos el contenido y le añadimos un espacio </td>
         <td> FlexBox defense (10) </td>
     </tr>
 
@@ -318,10 +321,9 @@
         <td></td>
         <td> FlexBox defense (12) </td>
     </tr>
-
     </table>
 
-
+    <br><br>
 
     <table border="1" id="Tabla">
         <tr>
